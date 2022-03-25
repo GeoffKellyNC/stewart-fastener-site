@@ -15,7 +15,7 @@ const HeaderStyled = styled.header`
         height: auto;
         position: absolute;
         left: 0em;
-        top: -3.4em;  
+        top: -2.3em;  
         margin: 0;
         padding: 0;
     }
@@ -32,7 +32,7 @@ const HeaderStyled = styled.header`
         .ham-menu{
             display: block;
             color: ${pr => pr.theme.colors.red};
-            width: 4em;
+            width: 3em;
             height: auto;
             padding: 1em;
         }

@@ -12,5 +12,8 @@ export default {
     breakPoints: {
         mobile: '320px',
         tablet: '820px',
+    },
+    font: {
+        mainFont: 'Poppins'
     }
 }
