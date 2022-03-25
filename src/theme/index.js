@@ -6,7 +6,8 @@ export default {
         black: '#353531',
         blue: '#3F88C5',
         white: '#E3EFF3',
-        green: '#CAFE48'
+        green: '#CAFE48',
+        offWhite: '#f4faff'
     },
     background: '#CFDBD5',
     breakPoints: {
@@ -15,5 +16,8 @@ export default {
     },
     font: {
         mainFont: 'Poppins'
+    },
+    styling: {
+        boxShadow: '0px 0px 15px #708596'
     }
 }
