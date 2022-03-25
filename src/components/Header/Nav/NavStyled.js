@@ -11,18 +11,17 @@ const NavStyled = styled.nav`
     }
 
     li {
-        margin: 0 1.5em;
+        margin: 0 2em;
         
     }
 
     a {
-        color: ${props => props.theme.colors.white};
         text-decoration: none;
         font-size: 1.2em;
         text-transform: uppercase;
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
-        color: ${props => props.theme.colors.white};
+        color: ${props => props.theme.colors.red};
     }
 
     @media (max-width: ${pr => pr.theme.breakPoints.tablet}) {

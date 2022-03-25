@@ -1,5 +1,6 @@
 //Imorting React
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 //Component: Nav
 import Nav from "./Nav/Nav";
@@ -21,10 +22,17 @@ function Header() {
     }
 
 
-
-
   return (
     <HeaderStyled>
+        <div className = 'nav-logo'>
+            <Link to = '/'>
+                <img 
+                    src = 'https://i.imgur.com/Mcp6ia1.png'
+                    alt = 'Stewart Fastener Logo'
+                    className = 'nav-logo'
+                />
+            </Link>
+        </div>
         <Nav />
         <AiOutlineMenu 
             className = 'ham-menu' 

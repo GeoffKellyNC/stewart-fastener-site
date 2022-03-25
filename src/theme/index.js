@@ -5,7 +5,8 @@ export default {
         yellow: '#FFB400',
         black: '#353531',
         blue: '#3F88C5',
-        white: '#E3EFF3'
+        white: '#E3EFF3',
+        green: '#CAFE48'
     },
     background: '#CFDBD5',
     breakPoints: {
