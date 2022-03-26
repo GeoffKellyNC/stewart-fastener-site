@@ -13,6 +13,7 @@ const GetTKUStyled = styled.div`
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-right: 1em;
 
     :hover{
         transform: scale(1.1);
@@ -25,7 +26,7 @@ const GetTKUStyled = styled.div`
         margin: 0;
     }
 
-    img{
+    .question-img{
         height: 10em;
         margin: 0;
         padding: 0;

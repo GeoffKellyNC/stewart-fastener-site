@@ -31,6 +31,13 @@ const ContactUsStyled = styled.div`
         height: 100%;
     }
 
+    @media (max-width: ${props => props.theme.breakPoints.ipad}) {
+        .screws{
+            top: 120em;
+            height: 16em;
+        }
+    }
+
     @media (max-width: ${props => props.theme.breakPoints.tablet}) {
         width: 100%;
        

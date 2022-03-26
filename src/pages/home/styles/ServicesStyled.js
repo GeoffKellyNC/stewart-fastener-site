@@ -9,6 +9,7 @@ const ServicesStyled = styled.div`
     box-shadow: ${pr => pr.theme.styling.boxShadow};
     border-radius: 5px;
     margin-top: 10%;
+    margin-left: 1em;
 
     :hover{
         ${'' /* transform: scale(1.1); */}

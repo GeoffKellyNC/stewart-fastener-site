@@ -28,6 +28,7 @@ const HeaderStyled = styled.header`
         display: none;
     }
 
+
     @media (max-width: ${pr => pr.theme.breakPoints.tablet}) {
         width: 143%;
         .ham-menu{
