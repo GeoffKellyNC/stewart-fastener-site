@@ -43,6 +43,24 @@ const ContactFormStyled = styled.form`
         font-weight: 300;
     }
 
+    button{
+        width: 10em;
+        height: 2em;
+        border: none;
+        background: ${props => props.theme.colors.red};
+        box-shadow: 0px 0px 7px ${props => props.theme.colors.black};
+        font-family: ${props => props.theme.font.mainFont};
+        color: ${props => props.theme.colors.white};
+        font-weight: 700;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+
+    button:hover{
+        color: ${props => props.theme.colors.red};
+        background: ${props => props.theme.colors.white};
+    }
+
     @media (max-width: ${props => props.theme.breakPoints.tablet}) {
         width: 80%;
     }
