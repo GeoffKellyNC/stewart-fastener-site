@@ -7,7 +7,8 @@ export default {
         blue: '#3F88C5',
         white: '#E3EFF3',
         green: '#57ff81fc',
-        offWhite: '#f4faff'
+        offWhite: '#f4faff',
+        grey: '#ede6e9'
     },
     background: '#CFDBD5',
     breakPoints: {
@@ -20,6 +21,7 @@ export default {
     },
     styling: {
         boxShadow: '0px 0px 15px #708596',
-        secondaryFontWeight: '800'
+        secondaryFontWeight: '800',
+        whiteBoxShadow: '0px 0px 15px #fff'
     }
 }

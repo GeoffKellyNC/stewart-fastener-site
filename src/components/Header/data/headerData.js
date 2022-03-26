@@ -8,8 +8,8 @@ export const links = [
     },
     {
         id: uuid(),
-        path: '/about',
-        text: 'About'    
+        path: 'https://online.flippingbook.com/view/929131120/',
+        text: 'Catalog'    
     },
     {
         id: uuid(),

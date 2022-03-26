@@ -21,6 +21,14 @@ const GetTKUStyled = styled.div`
     h2{
         font-family: ${pr => pr.theme.font.mainFont};
         font-weight: 800;
+        padding: 0;
+        margin: 0;
+    }
+
+    img{
+        height: 10em;
+        margin: 0;
+        padding: 0;
     }
 
     button{
