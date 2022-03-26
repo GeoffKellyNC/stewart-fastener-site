@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const HomeStyled = styled.div`
     font-family: ${pr => pr.theme.font.mainFont};
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     max-width: 100%;
@@ -21,8 +21,9 @@ const HomeStyled = styled.div`
     h3{
         font-size: 2em;
         max-width: 80%;
-        margin:  3em auto;
+        margin:  1.5em auto;
         color: ${pr => pr.theme.colors.red};
+        text-align: center;
     }
     
     .top-btns-container{
@@ -31,7 +32,7 @@ const HomeStyled = styled.div`
 
     .top-text-container{
         max-width: 50%;
-        margin: 6em 0;
+        margin: 2em 0;
     }
 
     .top-span-text{
@@ -43,6 +44,11 @@ const HomeStyled = styled.div`
         max-width: 80%;
         margin: 3em auto;
         text-align: center;
+    }
+
+    .cards{
+        display: flex;
+        gap: 5em;
     }
 
 
@@ -79,6 +85,7 @@ const HomeStyled = styled.div`
             max-width: 80%;
             margin: 0 auto;
         }
+
     }
 
     
