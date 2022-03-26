@@ -7,15 +7,56 @@ const ContactInfoStyled = styled.div`
     h3{
         color: white;
     }
+
+    //? Better yet, come see us in person --> p tag
+    .contact-tag{
+        font-weight: 700;
+        text-align: center;
+        margin: 5% 0 0 0;
+        padding: 0;
+        color: ${props => props.theme.colors.white};
+        font-size: 1.5em;
+    }
+
+    //? Business Address --> div
+    .business-address{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+    }
+
+    .street{
+        margin: 0;
+    }
+
+    .hours h5{
+        margin: 5% 0 2% 0;
+        padding: 0;
+        color: ${props => props.theme.colors.white};
+        font-size: 1.5em;
+        border-bottom: 1px solid ${props => props.theme.colors.white};
+        width: 18%;
+    }
+    
+    .hours p{
+        margin: 0;
+        padding: 0;
+        color: ${props => props.theme.colors.white};
+        font-size: 1em;
+        font-weight: bold;
+    }
+
 `
 
 function ContactInfo() {
 
   return (
     <ContactInfoStyled>
-        <p> Better yet, come see us in person!</p>
+        <p className = 'contact-tag'> Better yet, come see us in person!</p>
         <p className = 'business-name'>{contactData.businessName}</p>
-        <div>
+        <div className = 'business-address'>
             <p className = 'street'>{contactData.address.street}</p>
             <span className = 'city-state'>{contactData.address.city}, {contactData.address.state} {contactData.address.zip}</span>
         </div>

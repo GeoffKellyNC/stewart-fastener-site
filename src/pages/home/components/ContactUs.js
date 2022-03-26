@@ -18,7 +18,7 @@ function ContactUs(props) {
   return (
     <ContactUsStyled>
         <h2>Contact Us</h2>
-        <div>
+        <div className = 'business-info'>
             <ContactForm />
             <ContactInfo />
         </div>
