@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 
-//?Importing home data 
-import { homeData } from './data/homeData';
 //? Importing Service component
 import Services from './components/Services';
 //? Importing Banner component
 import Banner from './components/Banner';
 //? Importing GetToKnowUs component --> GetTKU.js
 import GetToKnowUs from './components/GetTKU.js';
+//? Importing ContactUs component
+import ContactUs from './components/ContactUs';
 
 //? HomeStyled is a styled component
 import HomeStyled from './styles/HomeStyled';
@@ -35,6 +35,7 @@ function Home() {
         </div>
         <h3> Stewart Fastener is different than your average fastener supply company.</h3>
         <p className = 'p-desc-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <ContactUs />
     </HomeStyled>
   )
 }

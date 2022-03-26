@@ -20,6 +20,7 @@ export default {
     },
     styling: {
         boxShadow: '0px 0px 15px #708596',
-        secondaryFontWeight: '800'
+        secondaryFontWeight: '800',
+        whiteBoxShadow: '0px 0px 15px #fff'
     }
 }
