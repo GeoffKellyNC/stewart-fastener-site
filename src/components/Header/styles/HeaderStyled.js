@@ -11,7 +11,7 @@ const HeaderStyled = styled.header`
     box-shadow: 0px 0px 10px ${pr => pr.theme.colors.black};
 
     img{
-        max-width: 13%;
+        max-width: 11%;
         height: auto;
         position: absolute;
         left: 0em;
@@ -29,6 +29,7 @@ const HeaderStyled = styled.header`
     }
 
     @media (max-width: ${pr => pr.theme.breakPoints.tablet}) {
+        width: 143%;
         .ham-menu{
             display: block;
             color: ${pr => pr.theme.colors.red};

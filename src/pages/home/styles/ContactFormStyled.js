@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 const ContactFormStyled = styled.form`
-    background: ${props => props.theme.colors.red};
+    background: ${props => props.theme.colors.white};
     width: 40%;
     height: 25.5em;
-    box-shadow: ${props => props.theme.styling.whiteBoxShadow};
+    box-shadow: ${props => props.theme.styling.boxShadow};
     border-radius: 5px;
     ${'' /* margin: 5% auto; */}
     display: flex;
@@ -26,7 +26,7 @@ const ContactFormStyled = styled.form`
 
     .input-box{
         border:0;
-        border-bottom:1px solid ${props => props.theme.colors.white};;  
+        border-bottom:1px solid ${props => props.theme.colors.red};;  
         background:transparent;
         width:100%;
         padding:8px 0 5px 0;
@@ -38,9 +38,13 @@ const ContactFormStyled = styled.form`
     }
 
     input::placeholder,textarea::placeholder{
-        color:${props => props.theme.colors.white};
+        color:${props => props.theme.colors.red};
         font-family: ${props => props.theme.font.mainFont};
         font-weight: 300;
+    }
+
+    @media (max-width: ${props => props.theme.breakPoints.tablet}) {
+        width: 80%;
     }
 
 `

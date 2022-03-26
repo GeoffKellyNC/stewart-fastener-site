@@ -4,6 +4,8 @@ import { contactData } from '../data/homeData';
 import styled from 'styled-components';
 
 const ContactInfoStyled = styled.div`
+    color: ${props => props.theme.colors.white};
+    font-weight: bold;
     h3{
         color: white;
     }
@@ -15,7 +17,9 @@ const ContactInfoStyled = styled.div`
         margin: 5% 0 0 0;
         padding: 0;
         color: ${props => props.theme.colors.white};
-        font-size: 1.5em;
+        font-size: 2em;
+        border-bottom: 0.1em solid ${props => props.theme.colors.white};
+
     }
 
     //? Business Address --> div
@@ -35,9 +39,9 @@ const ContactInfoStyled = styled.div`
         margin: 5% 0 2% 0;
         padding: 0;
         color: ${props => props.theme.colors.white};
-        font-size: 1.5em;
-        border-bottom: 1px solid ${props => props.theme.colors.white};
-        width: 18%;
+        font-size: 2em;
+        border-bottom: 0.1em solid ${props => props.theme.colors.white};
+        width: 25%;
     }
     
     .hours p{
@@ -47,6 +51,19 @@ const ContactInfoStyled = styled.div`
         font-size: 1em;
         font-weight: bold;
     }
+
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        color: ${props => props.theme.colors.white};
+        font-size: 1em;
+        font-weight: bold;
+    }
+
 
 `
 

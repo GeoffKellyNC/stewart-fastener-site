@@ -12,21 +12,22 @@ import ContactInfo from '../components/ContactInfo';
 
 
 
+
 function ContactUs(props) {
 
 
   return (
     <ContactUsStyled>
         <h2>Contact Us</h2>
-        <div className = 'business-info'>
-            <ContactForm />
-            <ContactInfo />
-        </div>
         <img 
             src = {screws}
             alt = 'screws'
             className = 'screws'
         />
+        <div className = 'business-info'>
+            <ContactForm />
+            <ContactInfo />
+        </div>
     </ContactUsStyled>
   )
 }
