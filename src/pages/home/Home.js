@@ -13,6 +13,9 @@ import GetToKnowUs from './components/GetTKU.js';
 import HomeStyled from './styles/HomeStyled';
 
 function Home() {
+
+  
+
   return (
     <HomeStyled>
         <Banner  />

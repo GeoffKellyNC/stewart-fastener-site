@@ -14,6 +14,10 @@ const GetTKUStyled = styled.div`
     justify-content: space-around;
     align-items: center;
 
+    :hover{
+        transform: scale(1.1);
+    }
+
     h2{
         font-family: ${pr => pr.theme.font.mainFont};
         font-weight: 800;
@@ -30,6 +34,11 @@ const GetTKUStyled = styled.div`
         font-weight: 700;
         border-radius: 5px;
         font-size: 1em;
+    }
+
+    button:hover{
+        color: ${props => props.theme.colors.red};
+        background: ${props => props.theme.colors.white};
     }
 `
 

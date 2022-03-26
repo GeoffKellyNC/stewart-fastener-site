@@ -6,7 +6,7 @@ const BannerStyled = styled.div`
     left: -26em;
 
     img{
-        width: 212%;
+        width: 206%;
         margin: 3em 1.5em;
         height: 55vh;
         border-radius: 15px;

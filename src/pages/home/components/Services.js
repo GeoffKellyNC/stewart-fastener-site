@@ -8,14 +8,24 @@ import ServicesStyled from '../styles/ServicesStyled';
 
 function Services() {
 
+  const handelMouseEvent = (e) => {
+  //  console.log(e.target);
+    
+  }
+
 
   return (
-    <ServicesStyled className = 'services-container'>
+    
+    <ServicesStyled className = 'services-container' onMouseEnter = {(e) => handelMouseEvent(e)}>
         <span>Services</span>
         <div>
         {
             servicesData.map(service => {
-                return <p key = {service.id}>{service.name}</p>
+                return <p 
+                          key = {service.id}
+                          className = {service.className}
+                          >{service.name}
+                        </p>
             })
         }
         </div>

@@ -86,6 +86,11 @@ const HomeStyled = styled.div`
             margin: 0 auto;
         }
 
+        .cards{
+            display: flex;
+            flex-direction: column;
+        }
+
     }
 
     
