@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 const HeaderStyled = styled.header`
-    background: #cececefc;
+    background: ${pr => pr.theme.colors.grey};
     height: 7em;
     width: 100%;
     display: flex;
