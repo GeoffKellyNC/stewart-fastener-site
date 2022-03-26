@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 const HeaderStyled = styled.header`
-    background: ${pr => pr.theme.colors.green};
+    background: #cececefc;
     height: 7em;
     width: 100%;
     display: flex;
@@ -15,7 +15,7 @@ const HeaderStyled = styled.header`
         height: auto;
         position: absolute;
         left: 0em;
-        top: -2.3em;  
+        top: -3em;  
         margin: 0;
         padding: 0;
     }
