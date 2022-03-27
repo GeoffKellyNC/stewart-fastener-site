@@ -4,21 +4,23 @@ import styled from 'styled-components';
 const ContactUsStyled = styled.div`
     background: ${props => props.theme.colors.red};
     width: 100%;
-    box-shadow: 0px 0px 7px ${props => props.theme.colors.black};
-
+    box-shadow: ${props => props.theme.styling.boxShadow};
+    
     h2{
         font-family: ${props => props.theme.font.mainFont};
         font-weight: 700;
         text-align: center;
-        margin: 5% 0 0 0;
+        margin: 0;
         padding: 0;
         color: ${props => props.theme.colors.white};
+        font-size: 5em;
     }
 
     .screws{
-        height: 20em;
+        height: 18em;
         position: absolute;
-        top: 112em;
+        top: 78em;
+        left: 0em;
         transform: rotate(347deg);
 }
     }
