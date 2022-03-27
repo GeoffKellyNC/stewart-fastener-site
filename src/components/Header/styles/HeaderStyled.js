@@ -30,7 +30,6 @@ const HeaderStyled = styled.header`
 
 
     @media (max-width: ${pr => pr.theme.breakPoints.tablet}) {
-        width: 143%;
         .ham-menu{
             display: block;
             color: ${pr => pr.theme.colors.red};

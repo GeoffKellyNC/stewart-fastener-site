@@ -9,6 +9,10 @@ const ContactInfoStyled = styled.div`
     h3{
         color: white;
     }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
     //? Better yet, come see us in person --> p tag
     .contact-tag{
@@ -29,6 +33,7 @@ const ContactInfoStyled = styled.div`
         justify-content: space-around;
         width: 100%;
         height: 100%;
+        align-items: center;
     }
 
     .street{
@@ -40,8 +45,9 @@ const ContactInfoStyled = styled.div`
         padding: 0;
         color: ${props => props.theme.colors.white};
         font-size: 2em;
-        border-bottom: 0.1em solid ${props => props.theme.colors.white};
+        ${'' /* border-bottom: 0.1em solid ${props => props.theme.colors.white}; */}
         width: 25%;
+        padding-left: 2em;
     }
     
     .hours p{
@@ -57,13 +63,22 @@ const ContactInfoStyled = styled.div`
         flex-direction: column;
         width: 100%;
         height: 100%;
+        margin: 1em 0;
+        padding: 0;
+        color: ${props => props.theme.colors.white};
+        font-size: 1em;
+        font-weight: bold;
+        align-items: center;
+    }
+
+    .contact-info p{
         margin: 0;
         padding: 0;
         color: ${props => props.theme.colors.white};
         font-size: 1em;
         font-weight: bold;
-    }
 
+    }
 
 `
 
