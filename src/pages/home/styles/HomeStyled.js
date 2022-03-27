@@ -16,6 +16,7 @@ const HomeStyled = styled.div`
     h1{
         max-width: 100%;
         text-align: center;
+        color: ${pr => pr.theme.colors.red};
     }
 
     p{
